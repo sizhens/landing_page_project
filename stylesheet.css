@@ -8,6 +8,7 @@ body {
     padding: 30px;
     justify-content: space-around;
 }
+
 .top-header {
     font-size: 24px;
 }
@@ -15,10 +16,11 @@ body {
 .smallheadcontainer {
     display: flex;
     font-size: 18px;
+    justify-content: space-evenly;
+    gap: 40px;
 }
 
 .small-header {
-    justify-content: space-between;
 }
 
 #midbox {
@@ -60,4 +62,49 @@ body {
     width: 50%;
     justify-content: center;
     padding: 30px;
+}
+
+#imagescontainer {
+    background-color: #f9faf8;
+}
+
+.headermiddle {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 50px;
+}
+
+.middlebody {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 100px 10px;
+}
+
+.podsquare {
+    color: #3882f6;
+    border: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.podtext {
+    display: flex;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.pod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
